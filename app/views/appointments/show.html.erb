@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date:</b>
+  <%= @appointment.date %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @appointment.user %>
+</p>
+
+
+<%= link_to 'Edit', edit_service_appointment_path(@appointment.service, @appointment) %> |
+<%= link_to 'Back', service_appointments_path(@appointment.service) %>
