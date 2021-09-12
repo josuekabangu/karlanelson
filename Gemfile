@@ -61,3 +61,6 @@ gem 'name_of_person', '~> 1.1', '>= 1.1.1'
 
 # Gem Added
 gem 'nested_scaffold'
+gem 'stripe'
+gem 'dotenv'
+gem "letter_opener"
